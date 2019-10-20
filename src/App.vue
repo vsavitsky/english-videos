@@ -6,8 +6,15 @@
 </template>
 
 <script>
+import Home from './components/Home.vue'
+import VideoDetails from './components/VideoDetails.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Home,
+    VideoDetails
+  }
 }
 </script>
 
